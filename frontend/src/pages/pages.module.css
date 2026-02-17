@@ -1,0 +1,399 @@
+.loading,
+.error,
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+/* Home Page */
+.home {
+  width: 100%;
+}
+
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+
+.heroContent h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.heroContent p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+.heroCTA {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  padding: 12px 32px;
+  background: white;
+  color: #667eea;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.secondaryBtn {
+  padding: 12px 32px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.secondaryBtn:hover {
+  background: white;
+  color: #667eea;
+}
+
+.features {
+  margin-bottom: 60px;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.feature h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.feature p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.categories {
+  margin-bottom: 60px;
+}
+
+.categories h2,
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.categoryCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: #667eea;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categoryCard:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.testimonial {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.testimonial p {
+  color: #666;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.testimonial span {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Products Page */
+.productsPage h1,
+.recommendationsPage h1,
+.profilePage h1,
+.wishlistPage h1,
+.cartPage h1,
+.notificationsPage h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+/* Profile Page */
+.profileCard {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profileHeader h2 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.profileHeader p {
+  color: #666;
+  margin: 0;
+}
+
+.profileSection {
+  margin-bottom: 30px;
+}
+
+.profileSection h3 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.profileSection p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.profileSection input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.profileActions {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+/* Wishlist Grid */
+.wishlistGrid,
+.notificationsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.wishlistItem,
+.notificationItem {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wishlistItem h3,
+.notificationItem h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.wishlistItem p,
+.notificationItem p {
+  color: #666;
+  margin: 0 0 16px 0;
+}
+
+.removeBtn,
+.deleteBtn,
+.markBtn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.3s;
+  margin-right: 8px;
+}
+
+.removeBtn,
+.deleteBtn {
+  background: #e74c3c;
+  color: white;
+}
+
+.removeBtn:hover,
+.deleteBtn:hover {
+  background: #c0392b;
+}
+
+.markBtn {
+  background: #3498db;
+  color: white;
+}
+
+.markBtn:hover {
+  background: #2980b9;
+}
+
+.date {
+  color: #999;
+  font-size: 12px;
+}
+
+/* Empty State */
+.empty a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 24px;
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.empty a:hover {
+  background: #5568d3;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .heroContent h1 {
+    font-size: 32px;
+  }
+
+  .heroContent p {
+    font-size: 16px;
+  }
+
+  .heroCTA {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+  }
+
+  .profileHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profileActions {
+    flex-direction: column;
+  }
+
+  .profileActions button {
+    width: 100%;
+  }
+}
